@@ -9,11 +9,26 @@ import './Fotos.css';
 const Home = () => {
 
     return (
+      
         <>
+           <section id="about">
+                   <div className="container">
+                       <div className="about_box_wrapper">
+                           <div className="about_box">
+                               <div className="about_content">
+                                   <h5>Development</h5>
+                                   <p>Sed ut perspiciatis unde omnis iste natus error sit accusa ntium dolor emque laudan sit accusa.</p>
+                               </div>
+                           </div>
+                           
+               
+                           </div>
+                       </div>
+           
+                      
+               </section>
                 
-            
-                
-            <Carousel data-bs-theme="dark">
+            <Carousel style={{width:"80vw" , margin: "auto"}} data-bs-theme="dark">
                 <Carousel.Item>
                     <img
                         className="d-block w-100"

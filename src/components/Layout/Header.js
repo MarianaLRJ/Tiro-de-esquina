@@ -43,8 +43,8 @@ const Header = () => {
               <Nav.Link as={Link} to="/Femenino">
                 Fútbol femenino 
               </Nav.Link>
-              <Nav.Link as={Link} to="/Fotos">
-                Fotos
+              <Nav.Link as={Link} to="/Ubicacion">
+                Ubicación 
               </Nav.Link>
               <Nav.Link as={Link} to="/Contacto">
                 Contacto

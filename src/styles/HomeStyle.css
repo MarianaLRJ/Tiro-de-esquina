@@ -38,6 +38,7 @@
   line-height: 1;
   margin-bottom: 20px;
   letter-spacing: 3px;
+  text-align: center;
 }
 .hero_section .hero_text p {
   padding: 0 5%;
@@ -388,7 +389,7 @@ footer .copy_right ul li:last-child:after {
   height: 2.7rem;
   line-height: 3rem;
   text-align: center;
-  background: var(--light-red);
+  background: var(--light-black);
   border-radius: 10%;
 }
 .scroll_top i {
@@ -463,4 +464,8 @@ footer .copy_right ul li:last-child:after {
   .blog_section .carousel.slide .carousel-inner .carousel-caption p {
     font-size: 1rem;
   }
+}
+.guat{
+ height: 50px;
+  
 }

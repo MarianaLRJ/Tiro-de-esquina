@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import chat from '../../assets/logo/WhatsApp.svg.png'
 
 function Footer() {
   // Scroll State
@@ -45,28 +46,35 @@ function Footer() {
             </Col>
             <Col sm={6} lg={3} className="mb-4 mb-lg-0">
               <div className="text-center">
-                <h5>Teléfono</h5>
-          <i class="bi bi-arrow-up"></i>
-                <p>llamanos o envianos un whatsapp</p>
+              <h5>Teléfono</h5>
+              <h4>11-40891744</h4>
+          <div className="chat">
+          <p>Llamanos o envianos un whatsapp</p>
+          <i class="bi bi-arrow-down"></i>
                 <p>
-                  <Link to="tel:9998887777" className="calling">
-                    11-40891744
-                  </Link>
+                <a aria-label="Chat on WhatsApp" href="chat">
+                  </a>  
+                
+                 <Link to="https://wa.me/1140891744" className="logo">
+                              <img src={chat} alt="chat" className="guat" />
+                            </Link>
                 </p>
               </div>
+                </div> 
+                
             </Col>
             <Col sm={6} lg={3} className="mb-4 mb-lg-0">
               <div className="text-center">
                 <h5>Seguinos</h5>
-                <p>Seguinos y dale like a nuestras redes sociales</p>
+                <p>Seguinos, compartí y dale like a nuestras redes sociales</p>
                 <ul className="list-unstyled text-center mt-2">
                   <li>
-                    <Link to="/">
+                    <Link to="https://www.facebook.com/profile.php?id=100063955028868">
                       <i className="bi bi-facebook"></i>
                     </Link>
                   </li>
                   <li>
-                    <Link to="/">
+                    <Link to="https://www.instagram.com/tirodeesquinafutbol/">
                       <i className="bi bi-instagram"></i>
                     </Link>
                   </li>
@@ -83,7 +91,7 @@ function Footer() {
                 <ul className="list-unstyled text-center mb-0">
                   <li>
                     <Link to="/">
-                      © 2025 <span>LRJ </span>. All Rights Reserved
+                      © 2025 Diseñado por <span>LRJ </span>. -All Rights Reserved-
                     </Link>
                   </li>
                 </ul>

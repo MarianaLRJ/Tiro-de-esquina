@@ -4,11 +4,10 @@ import Footer from "./components/Layout/Footer.js";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import Contacto from "./pages/Contacto/Contacto.jsx";
-import Fotos from "./pages/Fotos/Fotos.jsx";
-import Nosotros from "./pages/Nosotros/Nosotros.jsx";
+import Nosotros from "./pages/Nosotros/Fotos.jsx"
 import Escuelita from "./pages/LaEscuelita/LaEscuelita.jsx";
 import Femenino from "./pages/Femenino/Femenino.jsx";
-
+import Ubicacion from "./pages/Ubicacion/ubicacion.jsx";
 
 function App() {
   return (
@@ -21,10 +20,10 @@ function App() {
    <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Contacto" element={<Contacto />} />
-        <Route path="/Fotos" element={<Fotos />} />
         <Route path="/Nosotros" element={<Nosotros />} />
         <Route path="/Escuelita" element={<Escuelita />} />
         <Route path="/Femenino" element={<Femenino />} />
+        <Route path="/Ubicacion" element={<Ubicacion />} />
       </Routes>
       <Footer/>
    </Router>

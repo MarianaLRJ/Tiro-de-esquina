@@ -4,6 +4,8 @@ import './contacto.css';
 
 
 const Contacto = () => {
+
+    
     const onSubmit = async (event) => {
         event.preventDefault();
         const formData = new FormData(event.target);
@@ -54,7 +56,7 @@ const Contacto = () => {
 </div>
 <button type="submit"> Enviar</button>
     </form>
-
+   
 </section>
  
     )

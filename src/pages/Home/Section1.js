@@ -11,7 +11,7 @@ const Section1 = () => {
           <Col lg={5}>
             <div className="hero_text text-center">
               <h1 className="text-white">Tiro de Esquina</h1>
-              <h2 className="text-white">Canchas de 5 y 6</h2>
+              <h2 className="text-white ">Canchas de 5 y 6</h2>
               <Link to="/" className="btn order_now">
                 ME GUSTA!
               </Link>
